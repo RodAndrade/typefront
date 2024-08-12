@@ -8,26 +8,19 @@ on:
 
 jobs:
   test:
-    strategy:
-      matrix:
-        node-version: [20.x]
-
-    name: Run all tests
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0 # Retrieve Git history, needed to verify commits
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: '20'
           cache: 'npm'
-      - run: npm install
-
+      - name: Install Dependencies
+        run: npm install
       - name: Linter
         run: npm run lint
-
       - name: Run unit tests
         run: npm run test:ci
