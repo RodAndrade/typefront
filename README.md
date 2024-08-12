@@ -20,22 +20,25 @@ Seu ambiente de desenvolvimento deve estar preparado para executar:
 - [x] _Shadcn UI_
 - [ ] _Next-i18n_
 
-  2.⁠ ⁠*Qualidade de Código*
+2.⁠ ⁠*Qualidade de Código*
 
 - [x] _eslint_
 - [x] _prettier_
 - [x] _.editorconfig_
 
-  3.⁠ ⁠*Testes*
+3.⁠ ⁠*Testes*
 
 - [x] _Jest + Coverage_
 - [x] _React Testing Library_
 - [ ] _Cypress_
 
-  4.⁠ ⁠*Segurança e Cachee*
+4.⁠ ⁠*Segurança e Cache*
 
 - [x] _Headers_
 - [x] _Build Id_
+
+5.⁠ ⁠*CI/CD*
+- [ ] Pipeline GitHub Action rodando os testes em cada PR
 
 ## 🚀 Instalando
 
@@ -124,16 +127,16 @@ docker
 ## 🌳 Branchs
 
 1.⁠ ⁠*MAIN*: Commits que estão em produção.
-2.⁠ ⁠*DEV*: Commits que estão em homologação.
+2.⁠ ⁠*DEVELOPMENT*: Commits que estão em homologação.
 
 ## 📫 Contribuição
 
 Para contribuir com o boilerplate, siga estas etapas:
 
-1.⁠ ⁠Crie um branch (a partir de ⁠ dev ⁠): ⁠ git checkout -b <nome_branch> ⁠.
+1.⁠ ⁠Crie um branch (a partir de development): ⁠ git checkout -b <nome_branch> ⁠.
 2.⁠ ⁠Faça suas alterações e confirme-as: ⁠ git commit -m '<mensagem_commit>' ⁠
 3.⁠ ⁠Envie para o GitHub: ⁠ git push origin <nome_branch> ⁠
-4.⁠ ⁠Crie a solicitação de pull request para ⁠ dev ⁠.
+4.⁠ ⁠Crie a solicitação de pull request para development.
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
