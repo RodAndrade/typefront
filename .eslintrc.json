@@ -1,0 +1,21 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-useless-constructor": "off",
+    "import/no-anonymous-default-export": "off",
+    "no-extra-boolean-cast": "off",
+    "no-use-before-define": "off",
+    "no-var": "off",
+    "prefer-const": "off",
+    "prefer-regex-literals": "off",
+    "promise/param-names": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/display-name": "off",
+    "semi": "off",
+    "semi-style": "off"
+  }
+}
