@@ -58,7 +58,7 @@
     "i18next-browser-languagedetector": "^8.0.0",
     "js-cookie": "^3.0.5",
     "jsonwebtoken": "^9.0.2",
-    "next": "14.2.5",
+    "next": "14.2.13",
     "next-build-id": "^3.0.0",
     "next-i18next": "^15.3.1",
     "next-secure-headers": "^2.2.0",
